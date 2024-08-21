@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en-ID">
+
+    <head>
+
+
+        <title>To Do List</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="script.js"></script> 
+        <link rel="font" media="screen" href="https://fontlibrary.org//face/inter-ui" type="text/css"/>
+
+    </head>
+
+    <body>
+
+        <main>
+        <div class="grid-container">
+
+            <div class="header" style="grid-column: 1/3;">
+                <p style="margin-left: 36px;"><b>To Do List</b></p>
+            
+
+            </div>
+        
+            <div class="aboutMe" style="grid-column: 1/3;" id="myDIV" class="header">
+            <p style="font-size: 32px; line-height: 1px;">Insert todo:</p>
+            <form>
+            <input type="text" id="myInput" placeholder="Title..." for="todo name="todo">
+            </form>
+            <span onclick="newElement()" class="addBtn">Add</span>
+            
+            </div>
+
+            <div style="grid-column: 1/3;">
+                <ul id="myUL">
+                    <li>Hit the gym</li>
+                    <li class="checked">Pay bills</li>
+                    <li>Meet George</li>
+                    <li>Buy eggs</li>
+                    <li>Read a book</li>
+                    <li>Organize office</li>
+                  </ul>
+                
+            </div>
+    
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+        <footer>DEMO 2024</footer>
+
+    </body>
+
+</html> 
